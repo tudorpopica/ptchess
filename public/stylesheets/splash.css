@@ -1,0 +1,61 @@
+body{
+    background-color: grey;
+}
+
+.chess{
+    margin-top: 10vw;
+    text-align: center;
+    color:white;
+    font-size: 400%;
+}
+
+.stats{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+}
+
+form{
+    text-align:center;  
+    
+}
+
+
+/*  */
+
+.textbox{
+    margin-top: 2vw;
+    height:2vw;
+    width: 20vw;
+    border: 5px;
+    border-color: rgb(95, 95, 95);
+    border-style:double;
+}
+
+.play{
+    margin-top: 1vw;
+    height: 2vw;
+    width: 7vw;
+}
+
+
+
+/* animations */
+.icon{
+    
+    animation-name: rotating;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+
+
+@keyframes rotating{
+0%{transform: rotate(0deg);}
+ 25%{transform: rotate(45deg);}
+50%{transform: rotate(-45deg);}
+75%{transform: rotate(45deg);}
+100%{transform: rotate(0deg);}
+}
